@@ -1,21 +1,45 @@
-$primary-color: rgb(37, 11, 0);
+$primary-color: #444;
 $secondary-color: #b96b05;
 $show-home-image: true;
-$home-image: url(../img/Ainsley_Harriott.jpg);
+$home-image: url(../img/computer-767781_1920.jpg);
 $background-opactiy: 0.9;
 
 @mixin easeOut {
     transition: all 0.8s ease-out;
   }
 
-//set text color
-@function set-text-color($color) {
+
+  @mixin background {
+    @if $show-home-image {
+      &#bg-img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+  
+        &:after {
+          //sets background to be behind text
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          background: rgba($primary-color, $background-opactiy);
+        }
+      }
+    }
+  }
+
+  //set text color
+  @function set-text-color($color) {
     @if (lightness($color) > 40) {
       @return #000;
     } @else {
       @return #fff;
     }
   }
+  
   
   //media query mixins
   @mixin mediaSm {
@@ -40,3 +64,5 @@ $background-opactiy: 0.9;
       @content;
     }
   }
+
+
