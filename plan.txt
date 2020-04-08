@@ -1,0 +1,58 @@
+main page
+background (generic laptop or something)
+navbar 
+    home - contact - projects - cv - X (menu, close button)
+
+
+welcome bar
+    website title
+
+    about me
+
+    yello/blackgrey cholor scheme
+
+    rounded boxes 
+
+
+    website size (everything centred in website size)
+
+    template
+
+    ------------------------------------------------------------------- << menu bar, hidden till menu button pressed
+    icon? home    contact     projects    cv                              X(close/menu button)
+    --------------------------------------------------------------------
+
+    ------------------------------------------------------------------- << Welcome bar(my portfolio h1
+    my portfolio
+    --------------------------------------------------------------------
+
+    ------------------------------------------------------------------- << about me bar h2
+    about me
+    -------------------------------------------------------------------
+    ------------        --------------                  -------------
+    -           -       -           -                   -            -
+    - info      -       -   info    -                   -info        -
+    -------------       ---------------                 ---------------
+
+    ------------------------------------------------------------------<< footer copyright etc
+    copyright
+    -------------------------------------------------------------------
+
+
+    mobile view
+menu bar will be a list that comes over screen
+
+------------
+-  icon     x -
+-  home       -
+-  contact    -
+-  projects   -
+-  cv         -
+-------------
+
+infor boxes will be X
+                    X
+                    X
+
+instead of x x x 
+
